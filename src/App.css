@@ -1,0 +1,85 @@
+body{
+  background-image: linear-gradient(#de6262 , #ffb88c);
+}
+
+#at-center{
+  text-align: center;
+}
+#rotate-vertical{
+  writing-mode: vertical-lr;
+  font-weight: bold;
+}
+
+#styling {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+
+#navheader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 9%;
+  list-style-type: none;
+  
+}
+
+/* .response-nav{
+  font-size: x-large;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  margin-right: 2%;
+  
+} */
+
+#response-bar{
+position: absolute;
+ margin-top: -50px;
+ margin-left: 95%;
+ font-size: x-large;
+ cursor: pointer;
+ display: none;
+}
+
+#none{
+  text-decoration: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.advertisment-box{
+  width: 580px;
+  height: 450px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 3%;
+  padding-top: 21%;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+
+@media screen and (max-width : 480px) {
+  .advertisment-box{
+    display: none;
+  }
+
+  #navheader{
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  #response-bar{
+    display: block;
+    color: white;
+  }
+}
+
+
+

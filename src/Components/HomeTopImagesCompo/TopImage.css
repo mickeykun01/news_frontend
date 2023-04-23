@@ -1,0 +1,118 @@
+#pic-main-cont{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0;
+    
+    
+}
+
+#pic-main-cont #pic2{
+   grid-row-start: 1;
+   grid-row-end: 3;
+   margin-top: 2%;
+}
+
+
+
+
+
+#img1-text1{
+    text-align: center;
+    position: relative;
+    margin-top: -40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 240%;
+    font-weight: 800;
+    font-style: italic;
+    margin-left: -17%;
+}
+
+#img1-text2{
+    text-align: center;
+    position: relative;
+    margin-top: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: 900;
+    font-style: italic;
+    margin-left: -17%;
+    color: red;
+}
+
+#imgs2{
+    position: absolute;
+    width: 30%;
+}
+
+#img2-text1{
+    text-align: center;
+    position: relative;
+    margin-top: -30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: italic;
+    margin-left: -20%;
+}
+
+#img2-text2{
+    text-align: center;
+    position: relative;
+    margin-top: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: 900;
+    font-style: italic;
+    margin-left: 17%;
+    color: red;
+}
+
+@media screen and (max-width : 480px) {
+    #pic-main-cont{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image1{
+        width: 365px;
+        height: 340px;
+    }
+
+    .image2{
+        width: 320px;
+        height: 250px;
+        margin-top: 27%;
+        margin-left: 4%;
+    }
+
+    
+
+    #img1-text1{
+        text-align: center;
+        /* position: relative; */
+        margin-top: -40%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 100%;
+        font-weight: 800;
+        font-style: italic;
+        margin-left: -6%;
+    }
+
+    #img2-text1{
+        /* text-align: center; */
+        position: relative;
+        margin-top: -120%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        font-weight: 800;
+        font-style: italic;
+        margin-left: 60%;
+        width: 120%;
+        color: chartreuse;
+    }
+
+    #img2-text2{
+        width: 190%;
+    }
+    
+}
